@@ -1,6 +1,14 @@
 # web-reader-tool
-Turns webpages and uploaded docs into custom page formats while also processing text and extracting insights. 
 
+# WebReader
+A webpage reformatter with processed texts and extracted insights. 
+---
 
+## Features
+Initial webpage structure. Unformatted
 
-First commit
+## Planned Features
+- Multi-page website
+- Document uploading
+- Text pulling
+- Insight Extraction
