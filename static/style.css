@@ -15,4 +15,34 @@ body {
 }
 
 
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    border-radius: 15px;
+
+    overflow: hidden;
+
+}
+
+header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 40px 30px;
+    text-align: center;
+}
+
+
+
+main {
+    padding: 40px 30px;
+}
+
+.input-section {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+
 
