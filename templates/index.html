@@ -18,9 +18,28 @@
                     <form id="reformatter-form">
                         <div clas="form-group">
                             <label for="url-input">Enter Webpage URL</label>
-
-                            
+                            <div class="url-input-wrapper">
+                                <input
+                                    type="url"
+                                    id="url-input"
+                                    name="url"
+                                    placeholder="https://example.com/article"
+                                    required
+                                    autocomplete="off"
+                                >
+                                <button type="button" id="history-btn" class="history-toggle" title="View History"></button>
+                            </div>
+                            <div id="history-dropdown" class="history-dropdown">
+                                <div class="history-header">
+                                    <span>Recent URLs</span>
+                                    <button type="button" id="clear-history-btn" class="clear-history">Clear All</button>
+                                </div>
+                                <ul id="history-list" class="history-list">
+                                    <li class="history-empty">No history currently</li>
+                                </ul>
+                            </div>
                         </div>
+
                     </form>
                 </section>
             </main>
